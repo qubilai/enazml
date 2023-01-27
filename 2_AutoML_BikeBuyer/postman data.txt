@@ -1,0 +1,26 @@
+--> POST:
+http://63449532-1b94-4934-b838-e59494f6e652.northeurope.azurecontainer.io/score
+
+--> Header:
+Content-Type:application/json
+
+--> Body:
+{
+    "data": [
+        {
+            "CustomerKey": 0,
+            "Age": 80,
+            "CommuteDistance": "10+ Miles",
+            "EnglishEducation": "Bachelors",
+            "Gender": "F",
+            "HouseOwnerFlag": 1,
+            "MaritalStatus": "M",
+            "NumberCarsOwned": 2,
+            "NumberChildrenAtHome": 0,
+            "EnglishOccupation": "Management",
+            "Region": "Pasific",
+            "TotalChildren": 2,
+            "YearlyIncome": 100000
+        }
+    ]
+}
